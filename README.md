@@ -1,2 +1,2 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# exercise_list_poo
+Exercise list answers request by object-oriented programming teacher.
