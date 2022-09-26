@@ -1,5 +1,4 @@
-import 'package:answers_list_poo/exercise_9/sort_real_list.dart';
-
+import 'sort_real_list.dart';
 import 'sort_string_list.dart';
 
 class SortMachine {
@@ -27,14 +26,13 @@ class SortMachine {
   }
 
   static List<String> _sortStringList() {
-    List<String> strSortedList = [];
-    int N = stringList.length;
+    int lenStringList = stringList.length;
 
-    for (int i = 0; i < N; i++) {
-      strSortedList = SortStringList.sort(stringList);
+    for (int i = 0; i < lenStringList; i++) {
+      SortStringList.sort(stringList);
     }
 
-    return strSortedList;
+    return stringList;
   }
 
   static List _sortRealList() {

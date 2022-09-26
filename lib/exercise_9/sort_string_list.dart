@@ -1,6 +1,6 @@
 class SortStringList {
 
-  static List<String> sort(List<String> defaultList) {
+  static void sort(List<String> defaultList) {
     int N = defaultList.length;
     int firstIndex = 0;
     int secondIndex = 1;
@@ -17,7 +17,5 @@ class SortStringList {
       firstIndex++;
       secondIndex++;
     }
-
-    return defaultList;
   }
 }
