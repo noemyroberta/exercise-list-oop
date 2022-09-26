@@ -1,6 +1,6 @@
-import 'package:answers_list_poo/exercise_8/grade_entity.dart';
-import 'package:answers_list_poo/exercise_8/student_entity.dart';
-import 'package:answers_list_poo/exercise_8/student_validate_implementation.dart';
+import 'grade_entity.dart';
+import 'student_entity.dart';
+import 'student_validate_implementation.dart';
 
 void main() {
   StudentEntity student = StudentEntity(
